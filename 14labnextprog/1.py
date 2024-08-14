@@ -14,5 +14,13 @@ for i in range(len(arr)):
             continue
 
 
-print(sample)
+freqsample = dict()
+
+for i in sample:
+    if i in freqsample:
+        freqsample[i] += 1
+    else:
+        freqsample[i] = 1
+
+print(freqsample)
 
