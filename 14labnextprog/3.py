@@ -1,8 +1,10 @@
-import ntlk
-import time
+import nltk
+from nltk import word_tokenize
+from nltk import FreqDist
 
-nltk.download('punkt_tab')
+data = "My name is Arihant. I am a goddamn god. I am Arihant and this juicy"
+wt = word_tokenize(data)
 
-time.sleep(5000000000)
-
+freq = FreqDist(wt)
+print(freq.most_common(7))
 
