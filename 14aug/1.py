@@ -3,7 +3,7 @@ import random
 n = int(input("Enter seed val: "))
 random.seed(n)
 
-l = [random.randint(90,100) for i in range(0,1500)]
+l = [random.randint(92,105) for i in range(0,1500)]
 print(l)
 
 freq = dict()
