@@ -12,10 +12,7 @@ def coin_toss_probabilities(num_coins):
 
   return probabilities
 
-if __name__ == "__main__":
-  num_coins = 4
-  probabilities = coin_toss_probabilities(num_coins)
+num_coins = int(input("Enter the number of coins: "))
 
-  print("Probabilities for tossing", num_coins, "coins:")
-  for outcome, probability in probabilities.items():
-    print(f"{outcome}: {probability}")
+probs = coin_toss_probabilities(num_coins)
+print(probs)
