@@ -1,4 +1,5 @@
 import random
+random.seed(30)
 # import numpy as np
 # l = np.arange(random.randint(1,100))
 xdat = [random.randint(1,100) for i in range(1,10)]

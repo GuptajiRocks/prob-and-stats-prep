@@ -1,4 +1,5 @@
 import random
+random.seed(50)
 import numpy as np
 
 xdat = [random.randint(1,100) for i in range(1,10)]
@@ -13,8 +14,7 @@ for i in range(N):
     cov = cov + ((xdat[i] - xmean)*(ydat[i] - ymean))
 
 def calcmean():
-    xmean = xdat.mean()
-    ymean = ydat.mean()
+
     print(f"Mean of xdat is: {xmean}")
     print(f"Mean of ydat is: {ymean}")
 
@@ -38,6 +38,8 @@ def calcsd():
     sdl.append(sdy)
     # gsdy = sdy
 
+calcmean()
+calcsd()
 
 
 
