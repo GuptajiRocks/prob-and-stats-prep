@@ -6,10 +6,15 @@ dk = list(dd.keys())
 arrvall = []
 for i in dd:
     arrvall.append(int(dd[i]*2000))
-fullar=[]
+
+fulla = []
+print(arrvall)
+count = 0
 for i in arrvall:
     for j in range(i):
-        fullar.append(dk[i])
+        fulla.append(dk[count])
+    
+    count += 1
 
-print(fullar)
+
 
