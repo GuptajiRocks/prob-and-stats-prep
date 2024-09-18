@@ -22,3 +22,6 @@ print(f"Mean crossiants sold per hour: {mean}")
 print(f"The standard deviation is: {(mean**0.5)}")
 print(f"Exactly 20 sold probability is: {px20}")
 
+# Form -> P(x = k) = e**-mean * mean**k / k!
+
+
