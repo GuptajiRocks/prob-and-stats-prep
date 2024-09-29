@@ -1,0 +1,7 @@
+-- SELECT * FROM r1 NATURAL JOIN r2;
+SELECT *
+FROM r1
+WHERE NOT EXISTS (
+    SELECT 1 FROM r2
+    WHERE r1.DeptName = r2.DeptName
+);
