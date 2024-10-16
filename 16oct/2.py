@@ -11,6 +11,6 @@ print(whenlam1)
 print(whenlam2)
 
 if (whenlam2 < whenlam1):
-    print(f"After the redesign, less people will provide more than 10000 hrs of service as {whenlam2*100} < {whenlam1*100}")
+    print(f"After the redesign, less = {whenlam1 - whenlam2} fans will provide more than 10000 hrs of service as {whenlam2*100} < {whenlam1*100}")
 else:
-    print("Redesign will affect output, more folks will provide more than 10000 hrs of service.")
+    print("Redesign will affect output, more fans will provide more than 10000 hrs of service.")
