@@ -9,4 +9,3 @@ sample = np.random.normal(averg, stddev, n)
 jesus = np.log(sample[sample>0])
 plt.hist(jesus, edgecolor="black")
 plt.show()
-
