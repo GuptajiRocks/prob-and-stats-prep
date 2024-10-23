@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 class Student {
     Scanner sc = new Scanner(System.in);
@@ -65,14 +65,20 @@ class Company {
     
 }
 
-
 public class Main {
+    static void FutureBuilderApplication() {
+        ArrayList<Company> companyList;
+        ArrayList<Student> studentList;
+        
+
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String starterChoice = sc.nextLine();
         if (starterChoice.equals("Enter FutureBuilder")) {
             System.out.println("Entering the program!");
-            //FutureBuilderApplication();
+            FutureBuilderApplication();
         } else {
             System.out.println("Bye bye");
         }  
