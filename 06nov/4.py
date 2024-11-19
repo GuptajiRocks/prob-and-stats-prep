@@ -10,4 +10,4 @@ z = (l-mu)/newstd
 
 fs = st.norm.cdf(z)
 fin = 1-fs
-print(f"The probability that BU students exceed phone usage time of {l} minutes is: {round((fin*100), 2)}%")
+print(f"The probability is: {round((fin*100), 2)}%")
